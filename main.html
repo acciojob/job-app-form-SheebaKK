@@ -11,27 +11,27 @@
 	<h1>Portfolio </h1>
 	<form method="post">
 		<label for="name"> Name</label>
-		<input id="name" type="text" placeholder="Enter Your Name" ><br><br>
+		<input id="name" type="text" placeholder="Enter Your Name" required ><br><br>
 		<label for="email"> Email</label>
-		<input id="email" type="email" placeholder="Enter Your Mail Id" ><br><br>
+		<input id="email" type="email" placeholder="Enter Your Mail Id" required ><br><br>
 		<label for="gender"> Gender</label>
-		<input id="male" name="gender" type="radio" >Male
-		<input id="female" name="gender"  type="radio" > Female<br><br>
+		<input id="male" name="gender" type="radio" required >Male
+		<input id="female" name="gender"  type="radio" required > Female<br><br>
 		<label for="laptops">Laptop Brands</label>
-		<select name="brands" id ="laptops">
+		<select name="brands" id ="laptop">
 		  <option value="apple">Apple</option>
 		  <option value="asus">Asus</option>
 		  <option value="hp">HP</option>
 		</select>
 		<br><br>
 		<label for="age">Age</label>
-		<input id="age" type="number" min="18" max="110">
+		<input id="age" type="number" min="18" max="110" required>
 		<br><br>
 		<label for="dob">DOB</label>
-		<input id="dob" type="date" >
+		<input id="dob" type="date" required >
 		<br><br>
-		<label for="password">Password</label>
-		<input id="password" type="password">
+		<label for="password" >Password</label>
+		<input id="password" type="password" required>
 		<br><br>
 		<input type="submit" >
 	</form>
